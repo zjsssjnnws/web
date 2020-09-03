@@ -1,0 +1,75 @@
+body{margin: 0;padding: 0px;
+}
+.main{
+    height: 100%; 
+    width: 100%;
+    background-color: black
+    
+}
+.contiaiier{
+    
+    height: 10%; 
+    width: 20%;
+    background-color: antiquewhite;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    border: 1px solid white;
+    border-radius: 200px;
+    overflow: hidden;
+   text-overflow: ellipsis;
+    max-width: 100%;
+    max-height: auto;
+}
+
+    
+h1{
+    position: absolute;
+    font-size:400%; 
+    color: #62ff00;
+    animation-name: police;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+    visibility: visible;   
+    
+}
+
+.red{
+    height: 100%; 
+    width: 50%;
+    background-color: red;
+    animation-name: red ;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+    
+    
+}
+.blue{
+    height: 100%; 
+    width: 50%;
+    background-color: blue;
+    animation-name: blue ;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes red{
+    form{background-color: red}
+    to{background-color: blue}
+}
+@keyframes blue{
+    form{background-color: blue}
+    to{background-color: red}
+}
+@keyframes police{
+   
+    from{color: #62ff00}
+    to{color: black}
+    
+}
+
+
+
